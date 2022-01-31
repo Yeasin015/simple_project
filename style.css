@@ -1,0 +1,48 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+width: 1140px;
+margin: 0 auto;
+}
+.container h1 {
+    padding-bottom: 22px;
+    margin-top: 32px;
+}
+.menu{}
+.menu-items{
+    display: flex;
+}
+.menu-items ul {
+    background: #000;
+    margin: 2px;
+    padding: 10px;
+    border-end-end-radius: 10px;
+}
+.menu-items ul:hover{
+    background: rgb(8, 30, 231);
+    transition: 0.5s;
+}
+.menu-items ul li{}
+.menu-items ul li a {
+    padding: 38px;
+    font-size: 25px;
+    margin-left: -38px;
+    padding-left: 78px;
+    color: #fff;
+    
+}
+.pragraph {
+    margin-top: 50px;
+}
+.pragraph h3 {
+    padding-bottom: 20px;
+}
+.pragraph p {
+    line-height: 37px;
+    letter-spacing: 4px;
+}
